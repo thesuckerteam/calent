@@ -1,0 +1,17 @@
+{
+  "name": "calent",
+  "displayName": "calent",
+  "expo": {
+    "name": "calent",
+    "slug": "calent",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
