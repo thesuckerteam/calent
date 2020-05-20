@@ -6,6 +6,7 @@ import * as Font from "expo-font";
 import { Ionicons } from "@expo/vector-icons";
 import HomeScreen from "./src/screens/HomeScreen";
 import { View, Text } from "native-base";
+import LoginScreen from "./src/screens/LoginScreen";
 
 const Stack = createStackNavigator();
 
@@ -38,6 +39,7 @@ export default class App extends Component {
 		return (
 			<NavigationContainer>
 				<Stack.Navigator initialRouteName='Home'>
+					<Stack.Screen name='Login' component={LoginScreen } />
 					<Stack.Screen name='Home' component={HomeScreen} />
 				</Stack.Navigator>
 			</NavigationContainer>
