@@ -63,7 +63,7 @@ export default class LoginScreen extends Component {
 		return (
 			<Container>
 				{/* <Background source={require("../../assets/login-background.jpg")} /> */}
-				<Logo source={require("../../assets/logo.png")} />
+				{/* <Logo source={require("../../assets/logo.png")} /> */}
 				<InputContainer>
 					<Icon size={22} source={require("../../assets/icons/email.png")} />
 					<Input
